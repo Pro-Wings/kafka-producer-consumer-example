@@ -43,6 +43,7 @@ public class PublishMessageController {
 			publisherService.sendMessage(message);
 			return "successfully published message to Kafka!!";
 		}catch (Exception e) {
+			e.printStackTrace();
 			return "failed to publish message!!";
 		}
 		

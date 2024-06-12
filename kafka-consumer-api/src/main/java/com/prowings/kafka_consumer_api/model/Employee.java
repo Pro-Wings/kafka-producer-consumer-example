@@ -1,4 +1,4 @@
-package com.prowings.kafka_producer_api.model;
+package com.prowings.kafka_consumer_api.model;
 
 public class Employee {
 	
